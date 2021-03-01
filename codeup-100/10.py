@@ -1,0 +1,2 @@
+integer = input()
+print(integer)
