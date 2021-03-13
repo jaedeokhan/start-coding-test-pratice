@@ -1,9 +1,9 @@
 # 76, 문자 1개 입력받아 알파벳 출력하기
-char = input()
-diff =  1 + (ord(char) - ord('a'))
+input_ord = ord(input())
+a_ord = ord('a')
 
-while(diff != 0):
-    print( chr(ord(char) - diff) , end=' ')
-    diff -= 1
-    
+
+while(input_ord >= a_ord):
+    print(chr(a_ord), end=' ')
+    a_ord += 1
 
