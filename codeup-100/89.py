@@ -3,7 +3,7 @@
 # 3의 배수인 경우는 출력 x
 i1 = int(input())
 
-for i in range(1, i1):
+for i in range(1, i1 + 1):
     if(i % 3 == 0):
         continue
     print(i, end=' ')
