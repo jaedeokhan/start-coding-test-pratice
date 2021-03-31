@@ -11,5 +11,5 @@ for i in range(len(input_chess)):
     print(chess[i] - input_chess[i], end=' ')
 
 # 다른 사람의 풀이
-# zip : 동이한 개수로 이루어진 자료형을 묶어주는 역
-# print( *(b - int(a) for a,b in zip(input().split(), [1,1,2,2,2,8]) ))
+# zip : 동일한 개수로 이루어진 자료형을 묶어주는 역할
+print( *(b - int(a) for a,b in zip(input().split(), [1,1,2,2,2,8]) ))
