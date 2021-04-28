@@ -9,6 +9,20 @@ data = sorted(list(map(int, input().split())))
 for d in data:
     print(d, end=' ')
 
-
+# unpacking으로 출력하는 방법
 print(*sorted(list(map(int, input().split()))))
-    
+
+# 선택정렬로 푸는 방법
+index = 0
+
+for i in range(len(data)): 
+    min = 9999 
+    for j in range(i ,len(data)):
+        if min > data[j]:
+            min = data[j]
+            index = j
+    data[i], data[index] = data[index], data[i] 
+
+print(*data)
+
+
