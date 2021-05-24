@@ -14,7 +14,6 @@ def digit_sum(x):
 N = int(input())
 a = list(map(int, input().split()))
 max = -2147000000
-res = 0
 
 
 for x in a:
