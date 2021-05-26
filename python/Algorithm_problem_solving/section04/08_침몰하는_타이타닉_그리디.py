@@ -15,14 +15,12 @@ a.sort()
 
 while len(a) > 0:
     
+    if len(a) == 1:
+        cnt += 1
+        break
 
     # 2명이 배에 탈수 있는 경우
     if a[s] + a[e] <= m:
-        
-        if len(a) == 1:
-            a.pop()
-            cnt += 1
-            break
 
         a.pop(0)
         a.pop()
