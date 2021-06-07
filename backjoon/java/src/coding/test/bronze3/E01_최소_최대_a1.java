@@ -2,7 +2,7 @@ package coding.test.bronze3;
 
 import java.util.Scanner;
 
-public class E01_최소_최대 {
+public class E01_최소_최대_a1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
