@@ -5,9 +5,6 @@
 # 3-1. total = total + in - out
 # 3-2. if total > largest 보다 크다면 가장 많이 탄 곳을 저장
 # 4. 가장 많이 탄 largest를 출력
-import sys
-sys.stdin = open("input/04_input.txt", "r")
-
 total = 0
 largest = -2148000
 
