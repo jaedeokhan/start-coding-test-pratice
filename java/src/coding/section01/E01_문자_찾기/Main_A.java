@@ -1,4 +1,4 @@
-package coding.E01_문자_찾기;
+package coding.section01.E01_문자_찾기;
 
 import java.util.Scanner;
 

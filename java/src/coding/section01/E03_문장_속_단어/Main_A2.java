@@ -1,4 +1,4 @@
-package coding.E03_문장_속_단어;
+package coding.section01.E03_문장_속_단어;
 
 import java.util.Scanner;
 

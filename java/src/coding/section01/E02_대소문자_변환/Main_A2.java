@@ -1,4 +1,4 @@
-package coding.E02_대소문자_변환;
+package coding.section01.E02_대소문자_변환;
 
 import java.util.Scanner;
 
