@@ -1,14 +1,15 @@
 package coding.section01.E05_특정_문자_뒤집기;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
-    // 1. 입력 문자열 string을 받는다. lt, rt 변수를 set한다.
-    // 2. sring을 toCharArray로 char[] 배열로 받는다.
-    // 3. while (lt < rt) 성립할 때까지 반복한다.
-    // 3-1. if charArray[lt]와 [rt]가 아스키 코드 상 65~90, 97~122이면 교환해준다.
-    // 4. String.valueOf()를 통해서 변수에 할당한다.
+public class Main_A {
+
+    public boolean isAlpha(char a){
+        if ( ((a >= 65 && a <= 90) || (a >= 97 && a <= 122))) {
+            return true;
+        }
+        return false;
+    }
 
     public String solution(String string) {
 
@@ -16,11 +17,9 @@ public class Main {
         int lt = 0, rt = string.length() - 1;
         char[] charArray = string.toCharArray();
 
-        System.out.println(string.length());
-
-        while (lt < rt){
-            if (!Character.isAlphabetic(charArray[lt])) lt++;
-            else if (!Character.isAlphabetic(charArray[rt])) rt--;
+        while (lt < rt) {
+            if (!isAlpha(charArray[lt])) lt++;
+            else if (!isAlpha(charArray[rt])) rt--;
             else {
                 char temp = charArray[lt];
                 charArray[lt] = charArray[rt];
@@ -33,12 +32,11 @@ public class Main {
         answer = String.valueOf(charArray);
 
         return answer;
-        
     }
 
     public static void main(String[] args) {
 
-        Main T = new Main();
+        Main_A T = new Main_A();
         Scanner scan = new Scanner(System.in);
         String input = scan.next();
 
