@@ -2,34 +2,40 @@ package coding.section03.E02_공통원소_구하기;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+public class Main_F2_시간초과 {
+
+    // A, B 두 개 집합 => 공통 원소 추출, 오름차순 출력
+    // 시간초과
 
     public ArrayList<Integer> solution(int n, int m, int[] nArray, int[] mArray) {
 
         ArrayList<Integer> answer = new ArrayList<>();
-        int pointer1 = 0, pointer2 = 0;
-
-        // 오름차순 정렬 후 진행해야한다!
         Arrays.sort(nArray);
         Arrays.sort(mArray);
 
-        while (pointer1 < n && pointer2 < m){
-            if (nArray[pointer1] == mArray[pointer2]){
-                answer.add(nArray[pointer1]);
-                pointer1++;
-                pointer2++;
-            } else if (nArray[pointer1] < mArray[pointer2]) pointer1++;
-              else pointer2++;
+        for (int i = 0; i < n; i++){
+            int position2 = 0;
+
+            while (position2 < m) {
+                if (nArray[i] == mArray[position2]){
+                    answer.add(nArray[i]);
+                    break;
+                } else position2++;
+
+            }
         }
+
+        Collections.sort(answer);
 
         return answer;
     }
 
     public static void main(String[] args) {
 
-        Main T = new Main();
+        Main_F2_시간초과 T = new Main_F2_시간초과();
         Scanner scan = new Scanner(System.in);
         int n  = scan.nextInt();
         int[] nArray = new int[n];
