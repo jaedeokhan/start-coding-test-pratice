@@ -1,30 +1,33 @@
-package coding.section03;
+package coding.section03.E01_두_배열_합치기;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main_A_Two_pointers {
+public class Main {
 
-    public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
+    // 1.
 
-        ArrayList<Integer> answer = new ArrayList<>();
-        int pointer1 = 0, pointer2 = 0;
+    public int[] solution(int n, int m, int[] nArray, int[] mArray) {
 
-        while (pointer1 < n && pointer2 < m){
-            if (a[pointer1] < b[pointer2]) answer.add(a[pointer1++]);
-            else answer.add(b[pointer2++]);
+
+        int[] answer = new int[n+m];
+
+        for (int i = 0; i < n; i++){
+            answer[i] = nArray[i];
         }
 
-        while (pointer1 < n) answer.add(a[pointer1++]);
-        while (pointer2 < m) answer.add(b[pointer2++]);
+        for (int i = 0; i < m; i++){
+            answer[i+n] = mArray[i];
+        }
+
+        Arrays.sort(answer);
 
         return answer;
     }
 
     public static void main(String[] args) {
 
-        Main_A_Two_pointers T = new Main_A_Two_pointers();
+        Main T = new Main();
         Scanner scan = new Scanner(System.in);
         int n  = scan.nextInt();
         int[] nArray = new int[n];
