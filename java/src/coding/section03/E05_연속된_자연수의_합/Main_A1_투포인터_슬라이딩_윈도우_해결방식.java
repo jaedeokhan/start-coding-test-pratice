@@ -15,7 +15,8 @@ public class Main_A1_투포인터_슬라이딩_윈도우_해결방식 {
             nArray[i] = i + 1;
         }
 
-        for (int rt = 0; rt < middleValue; rt++){
+        for (int rt
+             = 0; rt < middleValue; rt++){
             sum += nArray[rt];
 
             if (sum == n) answer++;
