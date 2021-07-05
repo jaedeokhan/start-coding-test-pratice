@@ -1,2 +1,0 @@
-integer = input()
-print(integer)
