@@ -2,7 +2,7 @@ package coding.section05.E01_올바른_괄호;
 
 import java.util.*;
 
-public class Main {
+public class Main_1_try_catch {
 
     // Stack : Last In First Out(LIFO) < = > Queue (FIFO)
 
@@ -33,7 +33,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main T = new Main();
+        Main_1_try_catch T = new Main_1_try_catch();
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
 

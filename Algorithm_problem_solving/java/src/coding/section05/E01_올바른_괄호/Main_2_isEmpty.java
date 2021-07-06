@@ -1,8 +1,9 @@
 package coding.section05.E01_올바른_괄호;
 
-import java.util.*;
+import java.util.Scanner;
+import java.util.Stack;
 
-public class Main {
+public class Main_2_isEmpty {
 
     // Stack : Last In First Out(LIFO) < = > Queue (FIFO)
 
@@ -15,10 +16,10 @@ public class Main {
             if (x == '('){
                 brackets.push('(');
             } else { // ')' 이면
-                try {
-                    brackets.pop();
-                } catch (Exception e){ // EmptyStackException
+                if (brackets.isEmpty()){
                     return "NO";
+                } else { // 비어있지 않다면
+                    brackets.pop();
                 }
             }
         }
@@ -33,7 +34,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main T = new Main();
+        Main_2_isEmpty T = new Main_2_isEmpty();
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
 
