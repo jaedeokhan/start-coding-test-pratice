@@ -1,55 +1,47 @@
-package coding.section05.E04_후위식_연산_postfix;
+package coding.section05.E05_쇠막대기;
 
 import java.util.Scanner;
 import java.util.Stack;
 
 public class Main {
 
-    // Stack<Character> oper set
-    // 1. 향상된 for문을 char x : str.toCharArray() 까지 돈다.
-    // 1-1. if Character.isDigit(x) // 숫자이면
-    // 1-1-1. oper.push(x);
-    // 1-2. else // +, -, *, / 이면
-    // 1-2-1. oper.push(calculate(oper.pop(), x, oper.pop());
-
-    public int calculate(int y, char oper, int x){
-
-        int sum = 0;
-
-        if (oper == '+'){
-            sum = x + y;
-        } else if (oper == '-'){
-            sum = x - y;
-        } else if (oper == '*'){
-            sum = x * y;
-        } else if (oper == '/'){
-            sum = x / y;
-        }
-
-        return sum;
-    }
+    // 1. str을 for문으로 접근한다.
 
     public int solution(String str) {
 
-        Stack<Integer> values = new Stack<>();
+        int answer = 0;
+        Stack<Character> stack = new Stack<>();
+        char[] brackets = str.toCharArray();
 
-        for (char x : str.toCharArray()){
-            if (Character.isDigit(x)){
-                values.push(Character.getNumericValue(x));
-            } else { // +, -, *, / 이면
-                values.push(calculate(values.pop(), x, values.pop()));
+        for (int i = 0; i < brackets.length; i++){
+            if (brackets[i] == '('){ // 여는괄호이면
+                stack.push('(');
+            } else { // brackets == ')', 닫는 괄호이면
+                if (brackets[i-1] == '(') {  // char[] 앞에 값이 '(' 이면 => 레이저이면
+                    stack.pop();
+                    answer += stack.size();
+                } else { // 레이저가 아니라 막대가 끝나는 거면
+                    stack.pop();
+                    answer += 1;
+                }
             }
         }
 
-        return values.pop();
+        return answer;
     }
 
     public static void main(String[] args) {
 
         Main T = new Main();
         Scanner scan = new Scanner(System.in);
-        String str = scan.next();
+//        String[] str = {"()(((()())(())()))(())", "(((()(()()))(())()))(()())"};
+//
+//        for (int i = 0; i < str.length; i++){
+//            System.out.println(T.solution(str[i]));
+//        }
 
-        System.out.println(T.solution(str));
+        String string = scan.next();
+        System.out.println(T.solution(string));
+
     }
 }

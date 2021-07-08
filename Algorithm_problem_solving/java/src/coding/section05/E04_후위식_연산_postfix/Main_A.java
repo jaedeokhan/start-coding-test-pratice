@@ -10,7 +10,9 @@ public class Main_A {
         int answer = 0;
         Stack<Integer> numbers = new Stack<>();
         for (char x : str.toCharArray()){
-            if (Character.isDigit(x)) numbers.push(x - 48 );
+            if (Character.isDigit(x)) {
+                numbers.push(x - 48);
+            }
             else {
                 int rightValue = numbers.pop();
                 int leftValue = numbers.pop();
