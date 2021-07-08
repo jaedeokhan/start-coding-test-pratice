@@ -1,5 +1,7 @@
 package level01.E11_짝수와_홀수;
 
+import java.util.Arrays;
+
 public class Answer01 {
 
     public String solution(int num) {
@@ -8,12 +10,12 @@ public class Answer01 {
     }
 
     public static void main(String[] args) {
-
         Answer01 T = new Answer01();
-        int[] num = {3, 4};
 
-        for (int i = 0; i < num.length; i++){
-            System.out.println(T.solution(num[i]));
+        int[] nums = {3, 4};
+
+        for (int i = 0; i < nums.length; i++){
+            System.out.println((T.solution(nums[i])));
         }
 
     }
