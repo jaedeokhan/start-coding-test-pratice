@@ -2,6 +2,7 @@ package level01.E15_자연수_뒤집어_배열로_만들기;
 
 import java.util.Arrays;
 
+
 public class Answer02_StringBuilder_reverse {
 
     public int[] solution(long num) {
