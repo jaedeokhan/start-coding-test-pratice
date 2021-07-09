@@ -17,7 +17,7 @@ public class Main_A {
         while (!answerQueue.isEmpty()){ // 비어있지 않을때 까지
             for (int i = 1; i < k; i++) answerQueue.offer(answerQueue.poll());
             answerQueue.poll();
-            
+
             if (answerQueue.size() == 1) answer = answerQueue.poll(); // 하나일 때 poll() 해준다.
         }
 
