@@ -11,7 +11,7 @@ public class Answer01 {
 
         Answer01 T = new Answer01();
         String s = "1234";
-        
+
         System.out.println(T.solution(s));
     }
 
