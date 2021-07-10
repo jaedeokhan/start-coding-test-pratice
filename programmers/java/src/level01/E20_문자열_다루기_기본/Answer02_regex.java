@@ -4,7 +4,7 @@ public class Answer02_regex {
 
     public boolean solution(String s) {
 
-        return s.matches("^[0-9]{4}|\\{6}$");
+        return s.matches("^\\d{4}|{6}$");
     }
 
     public static void main(String[] args) {
