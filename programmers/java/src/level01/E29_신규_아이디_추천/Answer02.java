@@ -12,6 +12,7 @@ public class Answer02 {
 
         // 규칙 3. .. -> .
         newId = newId.replaceAll("[.]{2,}", ".");
+        System.out.println(newId);
 
         // 규칙 4. 맨 앞(^)에 .과 |(or) 맨 뒤($) .을 공백으로
         newId = newId.replaceAll("^[.]|[.]$", "");
