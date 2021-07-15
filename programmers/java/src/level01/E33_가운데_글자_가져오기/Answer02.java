@@ -1,25 +1,23 @@
 package level01.E33_가운데_글자_가져오기;
 
-public class Answer01 {
+public class Answer02 {
 
     public String solution(String s) {
 
-        final int sLength = s.length();
-        StringBuilder answer = new StringBuilder();
+        int sLength = s.length();
 
         if (sLength % 2 == 0){
-            answer.append(s.charAt(sLength / 2 - 1));
-            answer.append(s.charAt(sLength / 2));
+            s = s.substring((sLength / 2) - 1, (sLength / 2) + 1);
         } else {
-            answer.append(s.charAt(sLength / 2));
+            s = s.substring((sLength / 2), (sLength / 2) + 1);
         }
 
-        return answer.toString();
+        return s;
     }
 
     public static void main(String[] args) {
 
-        Answer01 T = new Answer01();
+        Answer02 T = new Answer02();
         String[] s = {"abcde", "qwer"};
 
         for (int i = 0; i < s.length; i++){
