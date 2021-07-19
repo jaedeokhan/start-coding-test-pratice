@@ -95,12 +95,16 @@
 28. [로또의_최고_순위와_최저_순위](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E28_%EB%A1%9C%EB%98%90%EC%9D%98_%EC%B5%9C%EA%B3%A0_%EC%88%9C%EC%9C%84%EC%99%80_%EC%B5%9C%EC%A0%80_%EC%88%9C%EC%9C%84)
 29. [신규_아이디_추천](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E29_%EC%8B%A0%EA%B7%9C_%EC%95%84%EC%9D%B4%EB%94%94_%EC%B6%94%EC%B2%9C)
 30. [숫자_문자열과_영단어](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E30_%EC%88%AB%EC%9E%90_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC_%EC%98%81%EB%8B%A8%EC%96%B4)
-31. []()
-32. []()
-33. []()
-34. []()
-35. []()
-36. []()
+31. [나누어_떨어지는_숫자_배열](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E31_%EB%82%98%EB%88%84%EC%96%B4_%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94_%EC%88%AB%EC%9E%90_%EB%B0%B0%EC%97%B4)
+32. [같은_숫자는_싫어](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E32_%EA%B0%99%EC%9D%80_%EC%88%AB%EC%9E%90%EB%8A%94_%EC%8B%AB%EC%96%B4)
+33. [가운데_글자_가져오기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E33_%EA%B0%80%EC%9A%B4%EB%8D%B0_%EA%B8%80%EC%9E%90_%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
+34. [3진법_뒤집기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E34_3%EC%A7%84%EB%B2%95_%EB%92%A4%EC%A7%91%EA%B8%B0)
+35. [내적](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E35_%EB%82%B4%EC%A0%81)
+36. [다트_게임](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E36_%EB%8B%A4%ED%8A%B8_%EA%B2%8C%EC%9E%84)
+37. [비밀지도](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E37_%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84)
+38. [2016년](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E38_2016%EB%85%84)
+
+
 
 ## Python
 ### Codeup-100
