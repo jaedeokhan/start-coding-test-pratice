@@ -41,10 +41,26 @@
 6. [최대_길이_연속부분수열](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section03/E06_%EC%B5%9C%EB%8C%80_%EA%B8%B8%EC%9D%B4_%EC%97%B0%EC%86%8D%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4)
 
 #### Sectino04 - HashMap, HashSet, TreeSet
+1. [학급_회장](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section04/E01_%ED%95%99%EA%B8%89_%ED%9A%8C%EC%9E%A5)
+2. [아나그램](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section04/E02_%EC%95%84%EB%82%98%EA%B7%B8%EB%9E%A8)
+3. [매출액의_종류](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section04/E03_%EB%A7%A4%EC%B6%9C%EC%95%A1%EC%9D%98_%EC%A2%85%EB%A5%98)
+4. [모든_아나그램_찾기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section04/E04_%EB%AA%A8%EB%93%A0_%EC%95%84%EB%82%98%EA%B7%B8%EB%9E%A8_%EC%B0%BE%EA%B8%B0)
+5. [K번째_큰_수](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section04/E05_K%EB%B2%88%EC%A7%B8_%ED%81%B0_%EC%88%98)
 
 #### Section05 - Stack, Queue
+1. [올바른_괄호](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E01_%EC%98%AC%EB%B0%94%EB%A5%B8_%EA%B4%84%ED%98%B8)
+2. [괄호문자제거](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E02_%EA%B4%84%ED%98%B8%EB%AC%B8%EC%9E%90%EC%A0%9C%EA%B1%B0)
+3. [크레인_인형뽑기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E03_%ED%81%AC%EB%A0%88%EC%9D%B8_%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0)
+4. [후위식_연산_postfix](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E04_%ED%9B%84%EC%9C%84%EC%8B%9D_%EC%97%B0%EC%82%B0_postfix)
+5. [쇠막대기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E05_%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0)
+6. [공주_구하기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E06_%EA%B3%B5%EC%A3%BC_%EA%B5%AC%ED%95%98%EA%B8%B0)
+7. [교육과정_설계](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E07_%EA%B5%90%EC%9C%A1%EA%B3%BC%EC%A0%95_%EC%84%A4%EA%B3%84)
+8. [응급실](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section05/E08_%EC%9D%91%EA%B8%89%EC%8B%A4)
 
 #### Section06 - Sorting and Searching
+1. [선택_정렬](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section06/E01_%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC)
+2. [버블_정렬](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section06/E02_%EB%B2%84%EB%B8%94_%EC%A0%95%EB%A0%AC)
+3. [삽입_정렬](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section06/E03_%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC)
 
 
 
