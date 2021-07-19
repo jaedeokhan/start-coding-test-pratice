@@ -1,9 +1,21 @@
 # start-coding-test-pratice
 2021.03.01 코딩 테스트 연습 시작 ~ 
 
-## Java 
+<ul>
+ <li>
+   <a href="#java">Java</a>
+   <ul>
+    <li><a href="#Algorithm_problem_solving">Algorithm_problem_solving</a></li>
+    <li><a href="#Programmers">Programmers</a></li>
+  </ul>
+ </li>
+ <li><a href="#sql">SQL</a></li>
+ <li><a href="#python">Python</a></li>
+</ul>
 
-### Algorithm_problem_solving
+<h2 id="java">Java<h2> 
+
+<h3 id="Algorithm_problem_solving">Algorithm_problem_solving</h3>
  
 #### Sectino01 - String
 1. [문자_찾기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section01/E01_%EB%AC%B8%EC%9E%90_%EC%B0%BE%EA%B8%B0)
@@ -62,7 +74,7 @@
 2. [버블_정렬](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section06/E02_%EB%B2%84%EB%B8%94_%EC%A0%95%EB%A0%AC)
 3. [삽입_정렬](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/Algorithm_problem_solving/java/src/coding/section06/E03_%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC)
 
-### Programmers
+<h3 id="Programmers">Programmers</h3>
 
 #### Level01
 1. [음양_더하기](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E01_%EC%9D%8C%EC%96%91_%EB%8D%94%ED%95%98%EA%B8%B0)
@@ -105,10 +117,13 @@
 38. [2016년](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/programmers/java/src/level01/E38_2016%EB%85%84)
 
 
+<h2 id="sql">SQL<h2> 
 
-## Python
+<h2 id="python">Python<h2> 
+ 
 ### Codeup-100
 * [1 ~ 100.py](https://github.com/jaedeokhan/start-coding-test-pratice/tree/main/codeup-100)
 
+ 
 
 
