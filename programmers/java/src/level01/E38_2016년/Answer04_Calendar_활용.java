@@ -9,7 +9,7 @@ public class Answer04_Calendar_활용 {
 
         Calendar calendar = new Calendar.Builder().setCalendarType("iso8601")
                 .setDate(2016, a - 1, b).build();
-        
+
         return calendar.getDisplayName(Calendar.DAY_OF_WEEK,
                 Calendar.SHORT,
                 new Locale("ko-KR")).toUpperCase();
