@@ -1,4 +1,4 @@
-package coding.Section07.E02_1부터_N까지의합;
+package coding.Section07.E03_팩토리얼;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,12 +6,10 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-    public int recursive(int n) {
+    public int solution(int n) {
 
-        // 1부터 N까지의 합을 출력
-//        if (n == 1) return 1;
-
-        return n + recursive(n - 1);
+        if (n == 1) return 1; // 종료조건
+        else return n * solution(n - 1); // 정상적인 재귀
     }
 
     public static void main(String[] args) throws IOException {
@@ -20,7 +18,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        System.out.println(T.recursive(n));
+        System.out.println(T.solution(n));
 
     }
 }
