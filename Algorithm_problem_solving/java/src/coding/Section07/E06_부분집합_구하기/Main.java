@@ -37,7 +37,7 @@ public class Main {
 
         Main T = new Main();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        n = 3;
+        n = Integer.parseInt(br.readLine());
         checked = new int[n + 1];
         T.DFS(1);
     }
