@@ -6,7 +6,7 @@ import java.util.Queue;
 public class Main {
 
     public int solution(int start, int end){
-        
+
         int[] items = {1, -1, 5};
         int[] checked = new int[10001];
         Queue<Integer> queue = new LinkedList<>();
