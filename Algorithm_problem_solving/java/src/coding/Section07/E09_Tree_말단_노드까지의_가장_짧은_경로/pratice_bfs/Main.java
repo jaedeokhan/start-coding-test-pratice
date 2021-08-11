@@ -1,4 +1,4 @@
-package coding.Section07.E09_Tree_말단_노드까지의_가장_짧은_경로;
+package coding.Section07.E09_Tree_말단_노드까지의_가장_짧은_경로.pratice_bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
