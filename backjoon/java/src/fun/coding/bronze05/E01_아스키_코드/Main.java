@@ -1,4 +1,4 @@
-package fun.coding.bronze05;
+package fun.coding.bronze05.E01_아스키_코드;
 
 import java.io.BufferedReader;
 import java.io.IOException;
