@@ -1,9 +1,7 @@
 package fun.coding.bronze02.E04_단어의_개수_1152;
 
-import java.io.BufferedReader;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class Main_4_원시_카운트 {
     // bronze2 1152번, 단어의 개수[https://www.acmicpc.net/problem/1152]
@@ -13,7 +11,6 @@ public class Main_4_원시_카운트 {
     // 주의 - 문자열의 앞과 뒤에는 공백이 있을 수도 있다.
 
     public static void main(String[] args) throws IOException {
-
         int count = 0;
         int preString = 32; // 공백을 의미
         int string;
@@ -34,5 +31,6 @@ public class Main_4_원시_카운트 {
             preString = string;
         }
 
+        System.out.println(count);
     }
 }
