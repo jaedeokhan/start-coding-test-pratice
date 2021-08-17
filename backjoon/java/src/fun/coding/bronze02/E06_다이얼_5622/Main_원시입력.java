@@ -7,7 +7,7 @@ public class Main_원시입력 {
     public static void main(String[] args) throws IOException {
         int totalTime = 0;    // 총 시간 저장 변수
         int fixTime = 2; // 처음 다이얼부터 시작하면 2초가 더 걸림
-        int value;       // 원시 타입 입력을 받을 변수
+        int value;       // 1Byte씩 입력을 받을 변수
         int[] times = {  // A-Z의 다이얼 기록
                 1, 1, 1, 2, 2, 2, 3, 3, 3, 4,
                 4, 4, 5, 5, 5, 6, 6, 6, 6, 7,
@@ -16,7 +16,7 @@ public class Main_원시입력 {
 
         while (true){
 
-            value = System.in.read();
+            value = System.in.read(); // 1Byte씩 입력
 
             if (value == '\n') break;
 
