@@ -1,4 +1,4 @@
-package fun.coding.bronze01;
+package fun.coding.bronze01.E01_단어공부_1157;
 
 import java.io.BufferedReader;
 import java.io.IOException;
