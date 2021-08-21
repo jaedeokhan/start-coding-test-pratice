@@ -8,7 +8,6 @@ import java.util.*;
 public class Main_3_binarySearch {
     // sliver04 1764번 - 듣보잡[https://www.acmicpc.net/problem/1764]
     // 해당 방식은 ArrayList<String>와 indexOf(), get()으로 해결하려 했으나 O(n)방식도 당연히 실패
-    //
     // 문제
     //  - 듣도 못한 사람의 명단과, 보도 못한 사람의 명단이 주어질 때,
     //    듣도 보도 못한 사람의 명단을 구하기
