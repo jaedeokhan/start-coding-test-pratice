@@ -15,8 +15,9 @@ public class Main {
 
         for (int i = 0; i < wordLength - 1; i++){
             char currentChar = word.charAt(i);
+            char nextChar = word.charAt(i + 1);
 
-            if (currentChar == word.charAt(i + 1)){
+            if (currentChar == nextChar){
                 equalCount++;
             } else {
                 if (equalCount == 1){

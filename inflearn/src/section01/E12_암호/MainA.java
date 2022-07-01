@@ -13,12 +13,12 @@ public class MainA {
         signal = signal.replace("#", "1")
                        .replace("*", "0");
 
+        System.out.println(signal);
+
         for (int i = 0; i < n; i++){
             String binary = signal.substring(0, BINARY_LENGTH);
-
             int decimal = Integer.parseInt(binary, 2);
             answer.append((char) decimal);
-
             signal = signal.substring(BINARY_LENGTH);
         }
 

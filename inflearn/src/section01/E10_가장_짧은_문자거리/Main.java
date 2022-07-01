@@ -5,14 +5,14 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-    public int[] solution(String word, char findChar){
+    public int[] solution(String word, char target){
 
         int wordLength = word.length();
         int[] answer = new int[wordLength];
         int position = 1000;
 
         for (int i = 0; i < wordLength; i++){
-            if (word.charAt(i) == findChar){
+            if (word.charAt(i) == target){
                 position = 0;
                 answer[i] = position;
             } else {
@@ -23,7 +23,7 @@ public class Main {
 
         position = 1000;
         for (int i = wordLength-1; i >= 0; i--){
-            if (word.charAt(i) == findChar){
+            if (word.charAt(i) == target){
                 position = 0;
             } else {
                 position++;
